@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "title": "Rhoback campaign holdout summary (8–22 July 2026)",
+    "source": "https://lutiq.com/research/what-ab-tests-cannot-see/",
+    "type": "measured_summary",
+    "brand": "Rhoback",
+    "window": {"start": "2026-07-08", "end": "2026-07-22"},
+    "note": "Pooled experiment vs holdout. Not best-page vs holdout. See source article for caveats and CI."
+  },
+  "users_total": 19708,
+  "holdout_share": 0.45,
+  "pages_racing": 22,
+  "arms": [
+    {"name": "test", "users": 9647, "orders": 80, "sales_per_visitor": 0.0078},
+    {"name": "holdout", "users": 10061, "orders": 51, "sales_per_visitor": 0.0049}
+  ],
+  "lift": {
+    "sales_per_visitor_relative": 0.60,
+    "confidence": 0.95,
+    "ci_relative": {"low": 0.18, "high": 1.15},
+    "revenue_per_visitor": {"test_usd": 1.41, "holdout_usd": 0.97, "relative": 0.45}
+  },
+  "comparison_type": "pooled_experiment_vs_holdout"
+}

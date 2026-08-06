@@ -1,0 +1,39 @@
+{
+  "id": "allocator-evaluation-power",
+  "claim": "After corrected walk-forward eligibility, a multi-page allocation evaluation retained 7,768 impressions and only 52 primary conversions \u2014 large point lifts often fail uncertainty checks.",
+  "definition": "Power characterisation of contextual landing-page allocation evaluation under conversion rarity.",
+  "numbers": [
+    {
+      "label": "eligible_impressions_24h",
+      "value": 7768
+    },
+    {
+      "label": "primary_conversions",
+      "value": 52
+    },
+    {
+      "label": "example_confirmation_greedy_lift",
+      "value": 0.471,
+      "note": "21 conversions on slice; CI crosses zero"
+    },
+    {
+      "label": "full_greedy_lift",
+      "value": 0.19,
+      "note": "not significant"
+    }
+  ],
+  "canonical_url": "https://lutiq.com/research/underpowered-allocation-evaluation/",
+  "methods_url": "https://lutiq.com/research/lutiq-holdout-protocol/",
+  "open_data_url": "https://lutiq.com/data/research/allocator-power-2026-07.json",
+  "sources": [
+    "https://lutiq.com/research/underpowered-allocation-evaluation/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Methodology/power paper, not a product ROI claim."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

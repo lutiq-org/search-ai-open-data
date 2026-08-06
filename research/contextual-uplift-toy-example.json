@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "title": "Toy example: aggregate A/B tie vs contextual routing",
+    "source": "https://lutiq.com/research/what-ab-tests-cannot-see/",
+    "type": "illustrative",
+    "note": "Illustrative arithmetic table from the research article, not a customer dataset."
+  },
+  "impressions_per_cell": 100,
+  "cells": [
+    {"context": "mobile", "page": "A", "impressions": 100, "clicks": 30, "rate": 0.30},
+    {"context": "mobile", "page": "B", "impressions": 100, "clicks": 10, "rate": 0.10},
+    {"context": "mobile", "page": "C", "impressions": 100, "clicks": 5, "rate": 0.05},
+    {"context": "desktop", "page": "A", "impressions": 100, "clicks": 5, "rate": 0.05},
+    {"context": "desktop", "page": "B", "impressions": 100, "clicks": 25, "rate": 0.25},
+    {"context": "desktop", "page": "C", "impressions": 100, "clicks": 10, "rate": 0.10}
+  ],
+  "strategies": {
+    "always_A": {"rate": 0.175},
+    "always_B": {"rate": 0.175},
+    "always_C": {"rate": 0.075},
+    "route_mobile_A_desktop_B": {"rate": 0.275, "absolute_lift_pp": 0.10, "relative_lift": 0.57}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "title": "Cold-start prior value leave-one-page-out (2026-08)",
+    "source": "https://lutiq.com/research/cold-start-prior-value-loo/",
+    "type": "measured_summary",
+    "n_pages": 83,
+    "impressions": 20341,
+    "conversions_24h_purchase_or_lead": 343,
+    "note": "Retrospective LOO information value of Beta priors. Not a deployment simulation."
+  },
+  "endpoint": "converted_24h",
+  "priors": [
+    {"source": "global_pooled_mean", "tau_star": 80, "delta_ll_vs_beta11": 185.8},
+    {"source": "brand_pooled_mean", "tau_star": 160, "delta_ll_vs_beta11": 199.6},
+    {"source": "style_family_pooled_mean", "tau_star": 80, "delta_ll_vs_beta11": 180.1},
+    {"source": "knn_minilm_all", "tau_star": 160, "delta_ll_vs_beta11": 199.4},
+    {"source": "knn_bge_all", "tau_star": 160, "delta_ll_vs_beta11": 199.9},
+    {"source": "knn_mpnet_all", "tau_star": 160, "delta_ll_vs_beta11": 198.4},
+    {"source": "knn_minilm_cross_brand", "tau_star": 80, "delta_ll_vs_beta11": 179.6},
+    {"source": "knn_minilm_earlier_pages", "tau_star": 80, "delta_ll_vs_beta11": 185.8}
+  ],
+  "bootstrap_contrasts": [
+    {"comparison": "knn_minilm_vs_global", "mean_delta_ll": 13.9, "p_no_improvement": 0.003},
+    {"comparison": "knn_minilm_vs_brand", "mean_delta_ll": 0.0, "p_no_improvement": 0.517},
+    {"comparison": "brand_vs_global", "mean_delta_ll": 13.9, "p_no_improvement": 0.002},
+    {"comparison": "knn_cross_brand_vs_global", "mean_delta_ll": -5.5, "p_no_improvement": 0.823}
+  ]
+}

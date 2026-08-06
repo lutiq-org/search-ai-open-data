@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "title": "Allocator evaluation power snapshot (corrected walk-forward)",
+    "source": "https://lutiq.com/research/underpowered-allocation-evaluation/",
+    "type": "measured_summary",
+    "note": "Public-safe aggregates. Characterises power/methodology, not a product ROI claim."
+  },
+  "raw_table": {
+    "production_impressions_approx": 10750,
+    "pages": 61,
+    "experiments": 10
+  },
+  "evaluation_24h": {
+    "eligible_impressions": 7768,
+    "primary_conversions": 52
+  },
+  "example_corrected_lifts": [
+    {
+      "slice": "confirmation_later_greedy",
+      "point_lift_relative": 0.471,
+      "conversions_on_slice": 21,
+      "p_no_uplift_approx": 0.133,
+      "ci_crosses_zero": true
+    },
+    {
+      "slice": "confirmation_later_soft",
+      "point_lift_relative": -0.026,
+      "ci_crosses_zero": true
+    },
+    {
+      "slice": "full_soft",
+      "point_lift_relative": 0.026,
+      "significant": false
+    },
+    {
+      "slice": "full_greedy",
+      "point_lift_relative": 0.19,
+      "significant": false
+    }
+  ]
+}

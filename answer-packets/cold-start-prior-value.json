@@ -1,0 +1,46 @@
+{
+  "id": "cold-start-prior-value",
+  "claim": "For cold-start landing pages, brand-mean Beta priors (~160 pseudo-observations) beat uninformative Beta(1,1); text-embedding kNN does not beat brand mean once same-brand neighbours are removed.",
+  "definition": "Leave-one-page-out measurement of prior information value across multi-page races.",
+  "numbers": [
+    {
+      "label": "n_pages",
+      "value": 83
+    },
+    {
+      "label": "impressions",
+      "value": 20341
+    },
+    {
+      "label": "conversions_24h",
+      "value": 343
+    },
+    {
+      "label": "brand_mean_tau_star",
+      "value": 160
+    },
+    {
+      "label": "brand_mean_delta_ll_vs_beta11",
+      "value": 199.6
+    },
+    {
+      "label": "knn_vs_brand_p_no_improvement",
+      "value": 0.517
+    }
+  ],
+  "canonical_url": "https://lutiq.com/research/cold-start-prior-value-loo/",
+  "methods_url": "https://lutiq.com/research/cold-start-prior-value-loo/",
+  "open_data_url": "https://lutiq.com/data/research/cold-start-prior-loo-2026-08.json",
+  "sources": [
+    "https://lutiq.com/research/cold-start-prior-value-loo/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Retrospective LOO, not online prior A/B.",
+    "Signal is brand identity in this sample, not design transfer via text embeddings."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

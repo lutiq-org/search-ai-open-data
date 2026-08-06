@@ -1,0 +1,27 @@
+{
+  "id": "what-is-lutiq",
+  "claim": "Lutiq is a predictive landing-page system for paid commerce traffic: generate on-brand variants, owner-approve what may run, predict a page per click, measure against a live holdout.",
+  "definition": "Lutiq generates on-brand landing page variants for paid traffic, the brand owner approves what may run, and for every click the system predicts which page to show \u2014 measured against a live holdout.",
+  "product_description": "Lutiq generates on-brand landing page variants for paid traffic, the brand owner approves what may run, and for every click the system predicts which page to show \u2014 measured against a live holdout.",
+  "canonical_url": "https://lutiq.com/product/",
+  "methods_url": "https://lutiq.com/methodology/",
+  "same_as": [
+    "https://www.linkedin.com/company/lutiqco",
+    "https://github.com/lutiq-org"
+  ],
+  "sources": [
+    "https://lutiq.com/",
+    "https://lutiq.com/about/",
+    "https://lutiq.com/press/",
+    "https://lutiq.com/llms.txt"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Not unsupervised AI rewrites of a live site without approval.",
+    "Primary measurement claim uses a holdout, not only relative A/B winners."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

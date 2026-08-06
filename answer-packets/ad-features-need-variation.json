@@ -1,0 +1,37 @@
+{
+  "id": "ad-features-need-variation",
+  "claim": "On 8,609 matched paid impressions from a single creative set, ad-creative embeddings added no reliable allocation signal in paired ablations vs indicator-only and random vectors.",
+  "definition": "Structural zero-variance limit for ad features in page allocation models.",
+  "numbers": [
+    {
+      "label": "matched_impressions",
+      "value": 8609
+    },
+    {
+      "label": "distinct_creative_sets",
+      "value": 1
+    },
+    {
+      "label": "real_embedding_paired_delta_pp",
+      "value": 0.48
+    },
+    {
+      "label": "real_embedding_p_le_0",
+      "value": 0.31
+    }
+  ],
+  "canonical_url": "https://lutiq.com/research/ad-features-need-variation/",
+  "methods_url": "https://lutiq.com/research/ad-features-need-variation/",
+  "open_data_url": "https://lutiq.com/data/research/ad-feature-degeneracy-2026-07.json",
+  "sources": [
+    "https://lutiq.com/research/ad-features-need-variation/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "One window where matched traffic lacked creative variation; does not prove ad content never helps."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

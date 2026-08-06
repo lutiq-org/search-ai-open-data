@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "title": "Ad creative feature degeneracy paired ablation",
+    "source": "https://lutiq.com/research/ad-features-need-variation/",
+    "type": "measured_summary",
+    "window": {"start": "2026-07-08", "end": "2026-07-16"},
+    "note": "Matched paid impressions only. Structural zero-variance creative feature."
+  },
+  "matched_impressions": 8609,
+  "distinct_creative_sets_in_matched": 1,
+  "join_coverage": 1.0,
+  "paired_ablation_selection_argmax": [
+    {"treatment": "real_ad_embedding", "delta_abs_cvr_pp": 0.48, "ci_low_pp": -0.31, "ci_high_pp": 1.18, "p_le_0": 0.31},
+    {"treatment": "indicator_only", "delta_abs_cvr_pp": 0.15, "ci_low_pp": -0.08, "ci_high_pp": 0.36, "p_le_0": 0.20},
+    {"treatment": "random_vector", "delta_abs_cvr_pp": 0.15, "ci_low_pp": -0.58, "ci_high_pp": 0.68, "p_le_0": 0.32},
+    {"treatment": "ads_different_seed", "delta_abs_cvr_pp": 0.02, "ci_low_pp": -0.43, "ci_high_pp": 0.47, "p_le_0": 0.49},
+    {"treatment": "baseline_different_seed", "delta_abs_cvr_pp": -0.02, "ci_low_pp": -0.04, "ci_high_pp": 0.10, "p_le_0": 0.81}
+  ]
+}

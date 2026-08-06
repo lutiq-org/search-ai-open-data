@@ -1,0 +1,45 @@
+{
+  "id": "contextual-uplift",
+  "claim": "Contextual uplift is conversion gain from routing different visitors to different pages; it can be mathematically invisible to aggregate A/B tests when strengths cancel across segments.",
+  "definition": "When page A wins for one visitor segment and page B for another, aggregate conversion rates can tie even though a routing rule lifts overall conversion. That lift is contextual uplift \u2014 structurally invisible to tests that only pick a single winner.",
+  "numbers": [
+    {
+      "label": "always_A_or_B_rate",
+      "value": 0.175,
+      "unit": "fraction",
+      "note": "Worked example: aggregate tie"
+    },
+    {
+      "label": "routed_mobileA_desktopB_rate",
+      "value": 0.275,
+      "unit": "fraction",
+      "note": "Worked example"
+    },
+    {
+      "label": "absolute_lift_pp",
+      "value": 0.1,
+      "unit": "percentage_points"
+    },
+    {
+      "label": "relative_lift",
+      "value": 0.57,
+      "unit": "fraction"
+    }
+  ],
+  "canonical_url": "https://lutiq.com/research/what-ab-tests-cannot-see/",
+  "methods_url": "https://lutiq.com/research/what-ab-tests-cannot-see/",
+  "open_data_url": "https://lutiq.com/data/research/contextual-uplift-toy-example.json",
+  "sources": [
+    "https://lutiq.com/research/what-ab-tests-cannot-see/",
+    "https://lutiq.com/glossary/contextual-uplift/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Toy table is illustrative arithmetic; separate selection gain from contextual gain in real logs.",
+    "Sparse high-dimensional cells can collapse effective sample size under IPS."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

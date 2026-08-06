@@ -1,0 +1,20 @@
+{
+  "id": "holdout-test",
+  "claim": "A holdout test reserves a baseline experience so you can measure whether a new system beats the status quo \u2014 not only which variant won among tested arms.",
+  "definition": "A holdout is a reserved share of traffic kept on the baseline experience while the experimental system (e.g. multi-variant predictive allocation) runs on the rest. Lift is measured against the holdout, not only pairwise A/B winners.",
+  "canonical_url": "https://lutiq.com/glossary/holdout-test/",
+  "methods_url": "https://lutiq.com/research/lutiq-holdout-protocol/",
+  "sources": [
+    "https://lutiq.com/glossary/holdout-test/",
+    "https://lutiq.com/learn/what-is-a-holdout-test/",
+    "https://lutiq.com/methodology/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Relative winners inside a closed race do not prove the program beat status quo."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

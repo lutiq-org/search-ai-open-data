@@ -1,0 +1,48 @@
+{
+  "id": "rhoback-holdout-summary",
+  "claim": "In a 8\u201322 July 2026 Rhoback campaign window (n=19,708 users), pooled experiment traffic showed higher sales-per-visitor than holdout with wide uncertainty \u2014 see open data for arms and CI.",
+  "definition": "Pooled multi-page experiment vs holdout summary for one commerce brand campaign window. Not best-page vs holdout.",
+  "numbers": [
+    {
+      "label": "users_total",
+      "value": 19708
+    },
+    {
+      "label": "holdout_share",
+      "value": 0.45
+    },
+    {
+      "label": "pages_racing",
+      "value": 22
+    },
+    {
+      "label": "test_sales_per_visitor",
+      "value": 0.0078
+    },
+    {
+      "label": "holdout_sales_per_visitor",
+      "value": 0.0049
+    },
+    {
+      "label": "relative_lift_sales_per_visitor",
+      "value": 0.6,
+      "note": "95% CI relative ~0.18\u20131.15"
+    }
+  ],
+  "canonical_url": "https://lutiq.com/research/what-ab-tests-cannot-see/",
+  "methods_url": "https://lutiq.com/research/lutiq-holdout-protocol/",
+  "open_data_url": "https://lutiq.com/data/research/rhoback-holdout-2026-07.json",
+  "sources": [
+    "https://lutiq.com/data/research/rhoback-holdout-2026-07.json",
+    "https://lutiq.com/research/what-ab-tests-cannot-see/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Pooled experiment vs holdout \u2014 not best single page vs holdout.",
+    "Wide confidence interval; do not cite as a guaranteed product ROI."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

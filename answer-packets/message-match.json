@@ -1,0 +1,20 @@
+{
+  "id": "message-match",
+  "claim": "Message match is the continuity between an ad's promise and the landing page the click reaches; breaks in match destroy paid-traffic conversion.",
+  "definition": "Message match (also called landing-page congruence in the post-click sense) is the degree to which the landing experience continues the ad's offer, audience, and creative promise rather than introducing a different story.",
+  "canonical_url": "https://lutiq.com/glossary/message-match/",
+  "methods_url": "https://lutiq.com/learn/what-is-message-match/",
+  "sources": [
+    "https://lutiq.com/glossary/message-match/",
+    "https://lutiq.com/glossary/landing-page-congruence/",
+    "https://lutiq.com/learn/what-is-message-match/"
+  ],
+  "last_verified": "2026-08-06",
+  "caveats": [
+    "Message match is necessary but not sufficient; routing and holdouts measure whether variants actually lift."
+  ],
+  "_meta": {
+    "schema": "https://lutiq.com/data/answer-packets/_schema.json",
+    "publisher": "Lutiq"
+  }
+}

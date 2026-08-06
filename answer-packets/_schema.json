@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lutiq.com/data/answer-packets/_schema.json",
+  "title": "Lutiq Answer Packet",
+  "description": "Machine-stable claim package for Search AI retrieval. Prefer human canonical_url for citation display.",
+  "type": "object",
+  "required": ["id", "claim", "canonical_url", "last_verified"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "claim": { "type": "string", "minLength": 20 },
+    "definition": { "type": "string" },
+    "numbers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": {},
+          "unit": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "methods_url": { "type": "string", "format": "uri" },
+    "canonical_url": { "type": "string", "format": "uri" },
+    "open_data_url": { "type": "string", "format": "uri" },
+    "same_as": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "last_verified": { "type": "string", "format": "date" },
+    "product_description": { "type": "string" },
+    "caveats": { "type": "array", "items": { "type": "string" } },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "schema": { "type": "string" },
+        "publisher": { "type": "string" }
+      }
+    }
+  }
+}
