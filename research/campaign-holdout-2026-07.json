@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "title": "Rhoback campaign holdout summary (8–22 July 2026)",
+    "title": "Apparel campaign holdout summary (8–22 July 2026)",
     "source": "https://lutiq.com/research/what-ab-tests-cannot-see/",
     "type": "measured_summary",
-    "brand": "Rhoback",
+    "brand": "unnamed apparel",
     "window": {"start": "2026-07-08", "end": "2026-07-22"},
     "note": "Pooled experiment vs holdout. Not best-page vs holdout. See source article for caveats and CI."
   },
